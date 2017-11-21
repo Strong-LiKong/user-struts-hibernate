@@ -1,0 +1,311 @@
+
+body{
+	display: flex;
+	flex-direction: column;
+}
+
+#topPanel{
+	background-color: #4D98C1;
+	flex-basis: 60px;
+}
+
+#topPanel .logo-panel,.topnav-panel{
+	height: 60px;
+}
+
+#topPanel .logo-panel{
+	float: left;
+}
+
+#topPanel .logo-panel .logo-content-Panel{
+	float: left;
+	margin: 5px 5px 5px 20px;
+	height: 50px;
+	width: 50px;
+	background-image: url(../images/logo.png);
+	background-size: cover;
+	vertical-align:middle;
+}
+
+#topPanel .logo-panel h3{
+	display: inline-block;
+	color: #fff;
+	height: 60px;
+	line-height: 60px;
+	margin: 0;
+	cursor: pointer;
+}
+
+#topPanel .topnav-panel{
+	float: right;
+	padding-right: 20px;
+}
+
+#topPanel .topnav-panel ul{
+	margin: 0;
+}
+
+#topPanel .topnav-panel ul li{
+	height: 60px;
+	line-height: 60px;
+	margin-right: 20px;
+	list-style-type: none;
+	float: left;
+}
+
+#topPanel .topnav-panel ul li img{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin-right: -15px;
+	margin-top: 15px;
+}
+
+#topPanel .topnav-panel ul li a{
+	font-size: 19px;
+	color: #DCDBDB;
+	text-decoration: none;
+}
+
+#topPanel .topnav-panel ul li a:hover{
+	color: #fff;
+}
+
+#bottomPanel{
+	width: 100%;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: row;
+}
+
+#bottomPanel .nav-panel{
+	flex-basis: 200px;
+	flex-shrink: 0;
+	background-color: #F5F5F7;
+}
+
+#bottomPanel .nav-panel ul{
+	padding: 0;
+}
+
+#bottomPanel .nav-panel ul li{
+	list-style-type: none;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+	padding-left: 35px;
+	color: #5C5C5C;
+}
+
+#bottomPanel .nav-panel ul li span{
+	display: table-cell;
+	padding: 0 2px;
+	height: 40px;
+	vertical-align: middle;
+}
+
+
+#bottomPanel .nav-panel ul li i{
+	margin-top: 10px;
+}
+
+#bottomPanel .nav-panel ul li:hover{
+	color: #000000;
+}
+
+#bottomPanel .nav-panel ul li:active{
+	color: #000000;
+	background-color: #E6E7EA;
+}
+
+.navPanelActive{
+	color: #000000;
+	background-color: #E6E7EA;
+}
+
+#bottomPanel .nav-panel .user-info{
+	height:150px;
+	width:200px;
+	position: absolute;
+	bottom:0;
+	padding-left: 35px;
+}
+
+#bottomPanel .nav-panel .user-info .user-img{
+	background-image: url(../images/user.png);
+	background-size: contain;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-bottom: 10px;
+	cursor: pointer;
+	opacity:0.8;
+}
+
+#bottomPanel .nav-panel .user-info .user-img:hover{
+	opacity: 1;
+}
+
+#bottomPanel .content-panel{
+ 	flex-grow: 1;
+ 	flex-shrink: 1;
+}
+
+
+
+  /* 
+  	userList 页面样式 
+  */
+  
+#userListPanel{
+ 	width: cls(100%-20px);
+ 	height: cls(100%-20px);
+ 	display: flex;
+ 	flex-direction: column;
+ 	margin: 10px;
+}
+
+#userListPanel .queryUser{
+ 	flex-grow: 1;
+ 	max-height: 50px;
+ 	min-height: 50px;
+ 	line-height: 50px;
+ 	padding-left: 50px;
+}
+#userListPanel table{
+ 	text-align: center;
+ 	width: 100%;
+ 	flex-grow: 1;
+}
+ 
+#userListPanel table thead th{
+ 	heigth: 40px;
+ 	line-height: 40px;
+ 	background-color: #CDDAEB;
+}
+
+#userListPanel table tbody tr:hover{
+	background-color: #E9E9E9;
+}
+ 
+
+#userListPanel table tbody tr td{
+ 	height:40px;
+}
+ 
+#userListPanel table tbody tr td a{
+	text-decoration: none;
+	color: #000;
+	font-weight: 600;
+	cursor: pointer;
+}
+ 
+#userListPanel .page_div{
+ 	flex-grow: 1;
+ 	max-height: 30px;
+ 	min-height: 30px;
+}
+
+
+
+	/* 
+		userFrom 样式
+		
+	*/
+#userFromPanel{
+	width: cls(100%-100px);
+ 	height: cls(100%-20px);
+ 	margin: 10px 50px;
+}
+
+#userFromPanel .title{
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	border-bottom: 1px solid #A9A9A9;
+	margin-bottom: 10px;
+}
+#userFromPanel table tr td{
+	height: 70px;
+	line-height: 70px;
+}
+
+#userFromPanel .button-group-panel{
+	padding-left: 150px;
+}
+
+#userFromPanel .button-group-panel button{
+	margin: 0 20px;
+}
+
+
+
+
+
+#edidUserPanel{
+	height: 100%;
+	width: 100%；
+}
+
+#edidUserPanel .title-panel{
+	height:50px;
+	line-height: 50px;
+	font-size: 20px;
+	border-bottom: 1px solid #000;
+}
+
+#edidUserPanel .input-panel{
+	padding: 20px 0;
+}
+
+#edidUserPanel .input-panel lable{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	display: block;
+}
+#edidUserPanel .input-panel lable input{
+	width: 95%;
+	height: 30px;
+	padding-left: 10px;
+}
+
+#edidUserPanel .input-panel lable select{
+	height: 30px;
+	width: 98%;
+	padding-left: 10px;
+}
+
+#edidUserPanel .button-panel {
+	margin-top: 20px;
+	text-align: center;
+}
+
+#edidUserPanel .button-panel .button{
+	height: 35px;
+	width: 300px;
+	border: 0;
+	background-color: #1167A8;
+	color: #fff;
+	opacity: 0.6;
+	cursor: pointer;
+}
+
+#edidUserPanel .button-panel .button:hover{
+	opacity: 1;
+}
+
+#ChartPanel{
+	padding: 20px;
+	display: flex;
+	flex-direction :row;
+}
+#ChartPanel .genderAnalysis{
+	flex-basis: 200px;
+	text-align: center;
+}
+#ChartPanel .createDateAnalysis{
+	flex-basis: 900px;
+	overflow: auto;
+	text-align: center;
+}

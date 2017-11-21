@@ -1,0 +1,56 @@
+
+html,body{
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
+
+.input_200{
+	width: 200px;
+	height:22px;
+	padding-left: 5px;
+}
+
+.input_500{
+	width: 500px;
+	height: 30px;
+	padding-left: 5px;
+}
+
+.button_50{
+	width: 50px;
+	height: 28px;
+    color: #0073A9;
+    border: 1px solid #0073A9!important;
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+.button_80{
+	width: 80px;
+	height: 35px;
+	border: 0;
+	border-radius: 5px;
+	background-color: #1167A8;
+	color: #fff;
+	opacity: 0.6;
+	cursor: pointer;
+}
+.button_80:hover{
+	opacity: 1;
+}
+
+.button_300{
+	width: 300px;
+	height: 35px;
+	border: 0;
+	border-radius: 5px;
+	background-color: #1167A8;
+	color: #fff;
+	opacity: 0.6;
+	cursor: pointer;
+}
+.button_300:hover{
+	opacity: 1;
+}
